@@ -22,7 +22,7 @@ DWORD WINAPI Writing(LPVOID param)
 	WaitForSingleObject(hMutexOUT, INFINITE); // Захватить мьютекс
 
 	ifstream out;          // поток для записи
-	out.open("D:\\7 трим\\VS\\OS defend\\Lab_3_2\\Lab_3_2\\out.txt");      // открываем файл для записи
+	out.open("ваш путь к файлу");      // открываем файл для записи
 	if (out.is_open())
 	{
 		out >> s;
