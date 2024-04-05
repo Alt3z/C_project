@@ -1,7 +1,3 @@
-﻿//Онищенко Фёдор КМБ-1 1 курс
-
-//1.1
-
 #include <iostream>
 using namespace std;
 
